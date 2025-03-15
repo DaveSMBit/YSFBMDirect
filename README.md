@@ -98,3 +98,5 @@ In this interval, any transmission will be sent to the current Talk Group, even 
 * Luca IS0GVH: Code reviews
 
 We also thank [Antonio IU5JAE](https://github.com/iu5jae/), whose open-source code was extermely useful for this project. 
+
+I also thank [Stefano IS0EIR](https://github.com/stefanolande/YSFBMDirect), whose original github was forked from.
