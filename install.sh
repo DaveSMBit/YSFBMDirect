@@ -42,7 +42,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable ysfbmdirect.service
 sudo systemctl start ysfbmdirect.service
 
-ysf="01234;YSF-BM;YSF-BM;127.0.0.1;42002;001"
+ysf="91234;YSF-BM;YSF-BM;127.0.0.1;42002;001"
 if ! grep -q $ysf /root/YSFHosts.txt; then
   echo $ysf >> /root/YSFHosts.txt
   /usr/local/sbin/HostFilesUpdate.sh
