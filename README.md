@@ -1,4 +1,4 @@
-# YSFBMDirect
+# YSFBMDirect in WPSD
 
 YSFBMDirect is a software that allows you to access Brandmeister as if it were a YSF reflector.
 It works by using the YSF Direct protocol that is being currently experimented.
@@ -24,7 +24,7 @@ Go to your pi-star dashboard, Configuration > Expert > SSH Access, then login wi
 Paste the following command
 
 ```commandline
-rpi-rw && curl https://raw.githubusercontent.com/stefanolande/YSFBMDirect/master/install.sh | bash -
+curl https://raw.githubusercontent.com/DaveSMBit/YSFBMDirect/master/install.sh | bash -
 ```
 
 You can edit your configuration file during the installation wizard, or later with
